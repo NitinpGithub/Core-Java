@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author SWAPNALI
+ *
+ */
+module CoreJava {
+}
