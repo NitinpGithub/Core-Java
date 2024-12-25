@@ -11,6 +11,7 @@ public class ReverseOfArray {
 		int arr1[] ={1,2,3,4,5,6,7,8,9};
 		if(Arrays.equals(arr, arr1))
 		{
+			
 			System.out.println("true");
 		}
 		int rev[] = new int[arr.length];

@@ -25,7 +25,21 @@ public class HashMap_ {
 		});
 		
 		
-
+		
+		
+//		add(1,2,3,4,5,6,7,8);
+//		System.out.println(add(1,2,3,4,5,6,7,8));
+//		
 	}
+	
+//	static int add(int...inputs)
+//	{
+//		int sum=0;
+//		for(int a:inputs)
+//		{
+//			sum+=a;
+//		}
+//		return sum;
+//	}
 
 }
