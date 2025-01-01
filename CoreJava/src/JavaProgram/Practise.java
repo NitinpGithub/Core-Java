@@ -5,6 +5,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
+import java.util.List;
 import java.util.Scanner;
 import java.util.Set;
 
@@ -12,29 +13,21 @@ public class Practise {
 
 	public static void main(String[] args)
 	{
-		int arr[]= {2,6,8,0,5,63,9};
-		ArrayList l1 = new ArrayList();
-		int max=arr[0];
-		int arr1[] = new int[arr.length];
-		int counter=0;
-		for(int i=0;i<arr.length;i++)
+		String s = "length";
+		String s1 = "kkjjlnhh";
+		String s2 = "";
+		for(int i=0;i<s.length();i++)
 		{
-			max=0;
-			for(int j=0;j<arr.length;j++)
+			for(int j=0;j<s1.length();j++)
 			{
-				if(arr[j]>max)
+				String str=Character.toString(s.charAt(i));
+				if(s1.contains(s2))
 				{
-					max=arr[j];
+					s2+=str;
 				}
-				else
-				{
-					l1.add(arr[j]);
-				}
-				
 			}
-			arr1[i]=max;
 			
 		}
-		System.out.println(arr1[3]);
+		System.out.println(s2);
 	}
 }
