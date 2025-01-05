@@ -26,8 +26,8 @@ public class Interface {
 		// TODO Auto-generated method stub
 		
 		/*
-		 Interface is used to achive abstraction in java aswell as multiple inheritance
-		 Interface could have onlu abstract method and by default variable is public static and final
+		 Interface is used to achive abstraction in java as well as multiple inheritance
+		 Interface could have only abstract method and by default variable is public static and final
 		 
 		 Class vs Interface
 		 
